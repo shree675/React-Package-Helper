@@ -8,7 +8,7 @@ This extension saves your precious time. In case you are unsatisfied with a reac
 You may want to save your time while not losing continuity in the hunt for your react package that suits your needs.  
 React Package Helper does exactly that. It comes to your rescue by providing a list of five most relevant react packages other than the one that you are already browsing through. On clicking a particular option of interest, it takes you to the documentation page of that package.
 
-<img src="assets/Screenshot (142).png" height="450">
+<img src="assets/Screenshot (143).png" height="450">
 
 ***Note: This extension only works in npmjs pages that contain react packages.***
 
