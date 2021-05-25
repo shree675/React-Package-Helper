@@ -24,14 +24,26 @@ document.addEventListener('DOMContentLoaded', async ()=>{
                     if(packages.length<=5){
                         for(var i=1;i<=packages.length;i++){
                             document.getElementsByClassName("name")[i-1].innerHTML=packages[i].package.name;
-                            document.getElementsByClassName("content")[i-1].innerHTML=packages[i].package.description;                            
+                            var cont=packages[i].package.description;
+                            if(cont!==undefined){
+                                document.getElementsByClassName("content")[i-1].innerHTML=packages[i].package.description;                            
+                            }
+                            else{
+                                document.getElementsByClassName("content")[i-1].innerHTML="*No description available*";
+                            }                            
                             document.getElementById("a"+i).href=packages[i].package.links.npm;
                         }
                     }
                     else{
                         for(var i=1;i<=5;i++){
                             document.getElementsByClassName("name")[i-1].innerHTML=packages[i].package.name;
-                            document.getElementsByClassName("content")[i-1].innerHTML=packages[i].package.description;                            
+                            var cont=packages[i].package.description;
+                            if(cont!==undefined){
+                                document.getElementsByClassName("content")[i-1].innerHTML=packages[i].package.description;                            
+                            }
+                            else{
+                                document.getElementsByClassName("content")[i-1].innerHTML="*No description available*";
+                            }                            
                             document.getElementById("a"+i).href=packages[i].package.links.npm;
                         }
                     }
