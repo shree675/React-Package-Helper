@@ -1,0 +1,73 @@
+body {
+    width: 220px;
+    padding: 10px;
+    background-color: #343434;
+    border-radius: 20px;
+    color: white;
+}
+
+#relevant-title {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: monospace;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    margin-left: -5px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+#item1:hover, #item2:hover, #item3:hover, #item4:hover, #item5:hover {
+    transform: scale(1.05,1.05);
+    border: 1px solid white;
+    transition-duration: 0.1s;
+    background-color: #454545;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 3px;
+    transition-duration: 0.1s;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 4px;
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
+.content:hover {
+    color: #6cafaf;
+}
+
+#main {
+    font-size: 16px;
+    color: rgb(179, 169, 79);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cur-package {
+    font-size: 14px;
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

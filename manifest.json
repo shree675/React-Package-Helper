@@ -1,0 +1,14 @@
+{
+    "name": "React Packages",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["tabs","activeTab"],
+    "icons": {
+        "16": "icons/react_logo16.png",
+        "48": "icons/react_logo48.png",
+        "128": "icons/react_logo128.png"
+    }
+}
