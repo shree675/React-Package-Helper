@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', async ()=>{
                     document.getElementById("cur-package").innerHTML=curUrl.substring("https://www.npmjs.com/package/".length,200);
                     var data=JSON.parse(request.response);
                     var packages=data.results;
-                    // console.log(data);
                     if(packages.length<=5){
                         for(var i=1;i<=packages.length;i++){
                             document.getElementsByClassName("name")[i-1].innerHTML=packages[i].package.name;
@@ -56,7 +55,6 @@ document.addEventListener('DOMContentLoaded', async ()=>{
         }
         else{
             mainele.innerHTML="React Packages are not available for this site (cannot detect npmjs-package)";
-            // mainele.innerHTML=curUrl;
         }
     });
 });
