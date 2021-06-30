@@ -1,7 +1,7 @@
 # React-Package-Helper
 
 ## About
-React Package Helper is a simple Chrome extension that is designed to help users in choosing and browsing different [react](https://reactjs.org/) [nmpjs packages](https://docs.npmjs.com/about-packages-and-modules).
+React Package Helper is a simple Chrome extension that is designed to help users in choosing and browsing different [nmpjs packages](https://docs.npmjs.com/about-packages-and-modules).
 
 ## What it does
 This extension saves your precious time. In case you are unsatisfied with a react package, then navigating back to the search page and browsing for some more relevant packages may be cumbersome and time consuming. Sometimes, you may also miss a few good react packages in this process, that suit your needs.  
