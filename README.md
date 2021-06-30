@@ -10,13 +10,13 @@ React Package Helper does exactly that. It comes to your rescue by providing a l
 
 <img src="assets/Screenshot (143).png" height="450">
 
-***Note: This extension works only in the official npmjs web pages that contain react packages.***
+***Note: This extension works only in the official npmjs web pages that contain packages.***
 
 ## Demonstration
 
 <img src="assets/React_Packages.gif" height="450">
 
-This extension has been developed as a personal tool to suit my needs and to save my time while browsing for react packages.
+This extension has been developed as a personal tool to suit my needs and to save my time while browsing for ReactJS and NodeJS packages.
 
 ## Screenshots
 For screenshots and videos, visit [assets](assets).
