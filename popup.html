@@ -8,16 +8,16 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
     </style>
-    <title>React Packages Extension</title>
+    <title>Npm Packages Extension</title>
 </head>
 <body>
     <div id="main">        
         <div style="display: flex; justify-content: space-between;">
             <div id="relevant-title" style="float: left">Other relevant packages:</div>
-            <div id="relevant-title" style="float: right; margin-right: -20px;"><img src="./icons/react_logo.svg" height="80px"></img></div>
+            <div id="relevant-title" style="float: right; margin-right: -20px;"><img src="./icons/npmicon.svg" height="80px"></img></div>
         </div>
         <div id="cur-package"></div>
-        <a id="a1" target="_blank">
+        <a id="a1" target="_blank" style="display:none">
             <div id="item1">
                 <div class="name">
 
@@ -27,7 +27,7 @@
                 </div>          
             </div>
         </a>
-        <a id="a2" target="_blank">
+        <a id="a2" target="_blank" style="display:none">
             <div id="item2">
                 <div class="name">
 
@@ -37,7 +37,7 @@
                 </div>          
             </div>
         </a>  
-        <a id="a3" target="_blank">
+        <a id="a3" target="_blank" style="display:none">
             <div id="item3">
                 <div class="name">
 
@@ -47,7 +47,7 @@
                 </div>          
             </div>
         </a>  
-        <a id="a4" target="_blank">
+        <a id="a4" target="_blank" style="display:none">
             <div id="item4">
                 <div class="name">
 
@@ -57,16 +57,19 @@
                 </div>          
             </div>
         </a>  
-        <a id="a5" target="_blank">
+        <a id="a5" target="_blank" style="display:none">
             <div id="item5">
                 <div class="name">
 
                 </div>            
                 <div class="content">
 
-                </div>          
+                </div>
             </div>
-        </a>  
+        </a>
+        <div id="empty" class="name" style="display: none;">
+            *No Other Packages Found*
+        </div> 
     </div>
     <script src="popup.js"></script>
 </body>
