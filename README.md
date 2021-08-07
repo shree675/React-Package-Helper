@@ -18,7 +18,7 @@ npm Package Helper does exactly that. It comes to your rescue by providing a lis
 
 <img src="assets/npm.gif" height="450">
 
-This extension has been developed as a personal tool to suit my needs and to save my time while browsing for react packages.
+This extension has been developed as a personal tool to suit my needs and to save my time while browsing for ReactJS and NodeJS packages.
 
 ## Screenshots
 
