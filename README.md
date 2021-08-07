@@ -12,13 +12,13 @@ npm Package Helper does exactly that. It comes to your rescue by providing a lis
 
 <img src="assets/Screenshot (336).png" height="450">
 
-**_Note: This extension only works in npmjs web pages that contain react packages._**
+**_Note: This extension only works in npmjs web pages that contain npmjs packages._**
 
 ## Demonstration
 
 <img src="assets/npm.gif" height="450">
 
-This extension has been developed as a personal tool to suit my needs and to save my time while browsing for ReactJS and NodeJS packages.
+This extension has been developed as a personal tool to suit my needs and to save my time while browsing for React.js and Node.js packages.
 
 ## Screenshots
 
