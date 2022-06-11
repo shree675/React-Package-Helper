@@ -2,7 +2,7 @@
 
 ## About
 
-npm Package Helper is a simple Chrome extension that is designed to help users in choosing and browsing different [nmpjs packages](https://docs.npmjs.com/about-packages-and-modules).
+npm Package Helper is a simple Chrome extension that is designed to help users in choosing and browsing different [npmjs packages](https://docs.npmjs.com/about-packages-and-modules).
 
 ## What it does
 
